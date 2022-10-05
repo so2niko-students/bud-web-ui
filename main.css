@@ -1,0 +1,11 @@
+li{
+    list-style-type: lower-roman;
+}
+
+.today{
+    font-weight: 600;
+}
+
+td:hover{
+    background-color: violet;
+}
