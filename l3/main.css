@@ -1,0 +1,43 @@
+header {
+  background-color: red;
+  min-height: 100px;
+}
+
+main {
+  background-color: green;
+  /* flex-grow: 1000px; */
+  /* flex-shrink: 100px; */
+  /* flex-basis: 100%; */
+  min-height: calc(100vh - 200px);
+  display: flex;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  min-height: 100px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.menu {
+  flex-basis: 100px;
+  border: 1px solid black;
+}
+
+content {
+  border: 1px solid grey;
+  display: flex;
+}
+
+img {
+  border: 1px dotted black;
+  min-width: 100px;
+  height: 100px;
+  /* flex-basis: 100px; */
+}
