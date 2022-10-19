@@ -1,0 +1,104 @@
+body{
+    width: 888px;
+    /* font-size: 33px; */
+}
+
+ol{
+    border: 1px solid red;
+}
+.example{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.ex{
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    background-color: #232377;
+}
+
+.square{
+    width: 200px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border: 0;
+    background-color: transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+ul li:first-child{
+    background-color: aqua;
+    top: 100px;
+}
+
+ul li:nth-child(2){
+    background-color: beige;
+    position: relative;
+    /* top: 100px; */
+    /* left: 100px; */
+    /* bottom: 50px; */
+    /* right: 33px; */
+}
+
+ul li:nth-child(3){
+    background-color: black;
+    color: rgb(237, 232, 232);
+    position: fixed;
+    top: 0;
+    left: 200px;
+}
+
+ul li:nth-child(4){
+    background-color: violet;
+    position: sticky;
+    top: 0;
+}
+
+ul li:nth-child(5){
+    background-color: cadetblue;
+    position: absolute;
+    top: 0;
+}
+
+/* 
+tag -  1
+class - 10
+id - 100
+!important - 1000
+*/
+
+/* 100 */
+#id-inh{
+    font-size: 33px;
+}
+
+/* 10 */
+.li-static{
+    font-size: 5px;
+}
+
+/* 2 */
+ul li{
+    font-size: 44px;
+}
+
+/* 1 */
+li{
+    font-size: 20px;
+}
