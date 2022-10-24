@@ -1,0 +1,41 @@
+.container{
+    width: 700px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px dotted gray;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/736x/2b/5c/e8/2b5ce8dbbd74bbfc88bb149b9332d573.jpg);
+    background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 250px;
+        height: 700px;
+    }
+}
