@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="inputs">
+        <input type="number" class="inp-1" placeholder="100">
+        <input type="text" class="inp-2" placeholder="+">
+        <input type="number" class="inp-3" placeholder="200">
+        <button class="btn-count">Count</button>
+    </div>
+    <div id="answer"></div>
+    <script>
+        const IN = {
+            inp1    : document.querySelector('.inp-1'),
+            inp2    : document.querySelector('.inp-2'),
+            inp3    : document.querySelector('.inp-3'),
+            btn     : document.querySelector('.btn-count'),
+            answer  : document.querySelector('#answer'),
+        }
+
+        IN.btn.onclick = function(){
+            const a = +IN.inp1.value;
+            const b = +IN.inp3.value;
+            const sign = IN.inp2.value;
+
+            const math = `${ a } ${ sign } ${ b }`;
+            let res = 0;
+
+            if(sign === '*') res = a * b;
+            if(sign === '-') res = a - b;
+            if(sign === '/') res = a / b;
+            if(sign === '+') res = a + b;
+
+            IN.answer.innerHTML = `Ви ввели: ${ math }. Результат: ${res}.`;
+        }
+
+        
+    </script>
+</body>
+</html>
