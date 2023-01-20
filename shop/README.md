@@ -25,3 +25,7 @@
 - [CSS Framework Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - [Array join метод](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 - [Приклад опису книжки](https://www.yakaboo.ua/ua/1984-1342782.html)
+- [MDN Events intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [MDN Events documentations](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+- [Залишкові параметри та синтаксис поширення](https://uk.javascript.info/rest-parameters-spread)
+- [MDN Spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
